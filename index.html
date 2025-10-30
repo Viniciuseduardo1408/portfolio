@@ -1,101 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinicius Eduardo Morais Creso - Desenvolvedor Frontend</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vinicius Eduardo Morais Creso - Desenvolvedor Frontend</title>
+    <link rel="stylesheet" href="src/css/font-awesome.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
 
-  <link rel="stylesheet" href="src/css/font-awesome.css" />
-  <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
 
-  <link rel="stylesheet" href="src/css/variaveis.css" />
+    <!-- Global -->
+    <link rel="stylesheet" href="src/css/globais.css" />
 
-  <!-- Global -->
-  <link rel="stylesheet" href="src/css/globais.css" />
+    <link rel="stylesheet" href="src/css/header.css" />
 
-  <link rel="stylesheet" href="src/css/header.css" />
+    <link rel="stylesheet" href="src/css/home.css" />
 
-  <link rel="stylesheet" href="src/css/home.css" />
+    <link rel="stylesheet" href="src/css/sobre.css" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+  </head>
 
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="row justify-content-between alinhar-itens-no-centro">
-        <a href="#">
-          <h1 class="logo">VE</h1>
-        </a>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between alinhar-itens-no-centro">
+          <a href="#">
+            <h1 class="logo">VE</h1>
+          </a>
 
-        <nav>
-          <input id="menu-hamburguer" type="checkbox" />
+          <nav>
+            <input id="menu-hamburguer" type="checkbox" />
 
-          <label for="menu-hamburguer">
-            <div class="menu">
-              <span class="hamburguer"></span>
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+
+            <ul>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#habilidade">Habilidade</a></li>
+              <li><a href="#projetos">Meus projetos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="container">
+        <div class="row full-screen alinhar-itens-no-centro">
+          <div class="texto-home">
+            <p>Olá 🖖,</p>
+            <h1>Sou Vinicius Eduardo</h1>
+            <h2>Desenvolvedor Frontend</h2>
+
+            <div class="redes-sociais">
+              <a href="#" class="outer-shadow">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+
+              <a href="#" class="outer-shadow">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+
+              <a href="#" class="outer-shadow">
+                <i class="fab fa-github"></i>
+              </a>
+
+              <a href="#" class="outer-shadow">
+                <i class="fab fa-instagram"></i>
+              </a>
             </div>
-          </label>
-
-          <ul>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#habilidade">Habilidade</a></li>
-            <li><a href="#projetos">Meus projetos</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <section class="home">
-    <div class="container">
-      <div class="row full-screen alinhar-itens-no-centro">
-        <div class="texto-home">
-          <p>Olá 🖖,</p>
-          <h1>Sou Vinicius Eduardo</h1>
-          <h2>Desenvolvedor Frontend</h2>
-
-          <div class="redes-sociais">
-            <a href="#" class="outer-shadow">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-
-            <a href="#" class="outer-shadow">
-              <i class="fab fa-whatsapp"></i>
-            </a>
-
-            <a href="#" class="outer-shadow">
-              <i class="fab fa-github"></i>
-            </a>
-
-            <a href="#" class="outer-shadow">
-              <i class="fab fa-instagram"></i>
-            </a>
           </div>
-        </div>
 
-        <div class="img-home">
-          <div class="img-box inner-shadow">
-            <img src="src/imagens/foto-perfil.png" alt="foto do perfil" class="outer-shadow">
+          <div class="img-home">
+            <div class="img-box inner-shadow">
+              <img
+                src="src/imagens/foto-perfil.png"
+                alt="foto do perfil"
+                class="outer-shadow"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="sobre-mim">
-  </section>
+    <section class="sobre-mim section" id="sobre-mim">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="imagem-sobre-mim">
+            <div class="img-box inner-shadow">
+              <img
+                src="src/imagens/foto-perfil.png"
+                alt="foto sobre mim"
+                class="outer-shadow"
+              />
+            </div>
+          </div>
+          <div class="informacoes-sobre-mim">
+            <p>
+              <strong
+                >Olá! Me chamo Ricardo Dias e sou um desenvolvedor frontend em
+                formação!</strong
+              >
+              Gosto MUITO da área de tecnologia, e tenho certeza que posso
+              contribuir em qualquer time com as minhas habilidades.
+            </p>
 
-  <section class="habilidades">
-  </section>
+            <p>
+              Estou sempre me desafiando coim novos projetos e participando de
+              comunidades de programação para buscar feedback de outros
+              desenvolvedores e desenvolvedoras. Além de tentar ajudar essas
+              pessoas com o que eu já aprendi. 😁
+            </p>
 
-  <section class="projetos">
-  </section>
+            <p>
+              Ah, gosto de jogos, filmes, séries, animes e outras nerdices. 💜
+            </p>
 
-  <footer class="footer">
-  </footer>
-</body>
+            <div class="botoes">
+              <a
+                target="_blank"
+                href="/src/arquivos/cv.pdf"
+                class="botao outer-shadow"
+                >Veja meu CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="habilidades"></section>
+
+    <section class="projetos"></section>
+
+    <footer class="footer"></footer>
+  </body>
 </html>
