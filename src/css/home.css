@@ -34,7 +34,7 @@
 
 .home .texto-home h1{
     font-family: var(--fonte-secundaria);
-    font-size: var(--font-gigante);
+    font-size: var(--fonte-gigante);
     font-weight: 700;
     margin-bottom: 20px;
 }
